@@ -60,7 +60,7 @@ header li {
     font-family: inherit; 
     font-size: 1.5em;
     position: relative;
-    top: 1vh;
+    top: 0.5vh;
     padding-bottom: 10%;
 }
 
@@ -90,6 +90,7 @@ header li {
     display: block;
 }
 .socials a {
+    display: flex;
     float: right;
     margin-left: 1vw;
     font-size: 2em;
@@ -115,7 +116,7 @@ header li {
     position: relative;
     z-index: -1;
     margin-top: 30px;
-    font-family: "Lucida Handwriting", cursive;
+    font-family: "Lucida Handwriting";
     font-size: min(max(6vw, 40px), 120px);
     font-weight: 100;
     letter-spacing: 1px;
