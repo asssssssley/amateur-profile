@@ -152,25 +152,21 @@ a:nth-child(4) {
     .menu .start-home, a:nth-child(1):hover~.animation {
         width: 8vw;
         left: 1vw;
-        background-color: #9b59b6;
 
     }
     .menu .start-about, a:nth-child(2):hover~.animation {
         width: 13vw;
         left: 9.5vw;
-        background-color: #3498db;
     }
 
     .menu .start-fun, a:nth-child(3):hover~.animation {
         width: 14vw;
         left: 22.5vw;
-        background-color: #1abc9c;
     }
 
     .menu .start-video, a:nth-child(4):hover~.animation {
         width: 10vw;
         left: 37vw;
-        background-color: #e7a83c;
     }
 
     .socials a {
@@ -216,7 +212,7 @@ a:nth-child(4) {
     height: auto;
 }
 
-#welcome h1 {
+#welcome .container h1 {
     position: relative;
     z-index: -1;
     margin-top: 30px;
@@ -225,6 +221,16 @@ a:nth-child(4) {
     font-weight: 100;
     letter-spacing: 1px;
     overflow-wrap: break-word;
+    transition: all 1s;
+}
+
+#welcome .container:hover h1 {
+    letter-spacing: 3px;
+    scale: 1.1;
+    text-shadow: 0 0 7px #fff,
+                 0 0 42px #cf56ff,
+                 0 0 82px #cf56ff,
+                 0 0 92px #cf56ff;
 }
 
 #welcome .cat img {
@@ -262,6 +268,30 @@ a:nth-child(4) {
     text-align: center;
     letter-spacing: 1px;
     transition: all 1s;
+}
+
+#choose_content .box h2:hover {
+    letter-spacing: 3px;
+    scale: 1.1;
+    text-shadow: 0 0 7px #fff;
+}
+
+#choose_content #About_Me h2:hover {
+    text-shadow: 0 0 42px #0099ff,
+                 0 0 82px #0099ff,
+                 0 0 92px #0099ff;
+}
+
+#choose_content #Fun_Facts h2:hover {
+    text-shadow: 0 0 42px #00ffcc,
+                 0 0 82px #00ffcc,
+                 0 0 92px #00ffcc;
+}
+
+#choose_content #Videos h2:hover {
+    text-shadow: 0 0 42px #ffad1f,
+                 0 0 82px #ffad1f,
+                 0 0 92px #ffad1f;
 }
 
 #choose_content .box h3 {
