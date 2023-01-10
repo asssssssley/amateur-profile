@@ -270,25 +270,25 @@ a:nth-child(4) {
     transition: all 1s;
 }
 
-#choose_content .box h2:hover {
+#choose_content .box:hover h2 {
     letter-spacing: 3px;
     scale: 1.1;
     text-shadow: 0 0 7px #fff;
 }
 
-#choose_content #About_Me h2:hover {
+#choose_content #About_Me:hover h2 {
     text-shadow: 0 0 42px #0099ff,
                  0 0 82px #0099ff,
                  0 0 92px #0099ff;
 }
 
-#choose_content #Fun_Facts h2:hover {
+#choose_content #Fun_Facts:hover h2 {
     text-shadow: 0 0 42px #00ffcc,
                  0 0 82px #00ffcc,
                  0 0 92px #00ffcc;
 }
 
-#choose_content #Videos h2:hover {
+#choose_content #Videos:hover h2 {
     text-shadow: 0 0 42px #ffad1f,
                  0 0 82px #ffad1f,
                  0 0 92px #ffad1f;
