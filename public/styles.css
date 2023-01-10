@@ -14,6 +14,10 @@ header {
     background: #dcdcdc;
     max-height: 14vh;
     height: 40px;
+    box-shadow: 0px 1px 2px rgba(255, 255, 255, 0.79), 
+              0px 2px 4px rgba(255, 255, 255, 0.806), 
+              0px 4px 8px rgba(255, 255, 255, 0.731), 
+              0px 8px 16px rgba(255, 255, 255, 0.678);
 }
 
 header a {
@@ -279,7 +283,7 @@ a:nth-child(4) {
 }
 
 #choose_content .box video {
-    width: 60vw;
+    width: 50vw;
     height: auto;
 }
 
